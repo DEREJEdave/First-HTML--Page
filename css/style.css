@@ -1,0 +1,50 @@
+html {
+  font-size: 22px;
+  font-family : Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+	text-align: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+body {
+	
+	background: linear-gradient(-45deg, #a2077433, #c359cf, #9e55ddda, #b68ae8d4);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+a {
+  color: rgb(17, 228, 207);
+
+}
+a:visited{
+  color: rgb(43, 18, 58);
+}
+ a:hover , a:active {
+  color: rgb(67, 19, 123);
+}
+hr {
+	color: black;
+}
+table {
+	
+}
